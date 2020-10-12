@@ -4,7 +4,7 @@
 THEME = ‘../pelican-themes/Flex’
 AUTHOR = 'Dean'
 SITENAME = 'This is a Test'
-SITEURL = ''
+SITEURL = 'DCATALANO91.github.io'
 
 PATH = 'content'
 
