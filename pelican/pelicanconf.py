@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 
-THEME = ‘../pelican-themes/Flex’
+
 AUTHOR = 'Dean'
 SITENAME = 'This is a Test'
 SITEURL = 'DCATALANO91.github.io'
@@ -32,4 +32,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
