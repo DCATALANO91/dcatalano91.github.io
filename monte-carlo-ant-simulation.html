@@ -118,12 +118,24 @@
   <div>
     <h2>Monte Carlo Ant Simulation</h2>
 <p>In this project, we will utilize the Monte Carlo method to simulate an ant moving around a 3x3 board, which we will then record where the ant lands on it's 1000th step. The Monte Carlo Method was invented by Stanislaw Ulam and uses randomly repeated sampling to predict statistical results.</p>
-<p>Let's start by discussing the caveats to our project:
-* The ant can begin at any random position on the 3x3 board.
-* The ant cannot move diagonally.
-* We will complete 1000 steps and record only the final landing space.
-* The simulation will run 100000 times, giving us 100000 data points.
-* The results will be converted to a decimal probability and written to a csv file.</p>
+<p>Let's start by discussing the caveats to our project:</p>
+<ul>
+<li>
+<p>The ant can begin at any random position on the 3x3 board</p>
+</li>
+<li>
+<p>The ant cannot move diagonally</p>
+</li>
+<li>
+<p>We will complete 1000 steps and record only the final landing space</p>
+</li>
+<li>
+<p>The simulation will run 100000 times, giving us 100000 data points</p>
+</li>
+<li>
+<p>The results will be converted to a decimal probability and written to a csv file</p>
+</li>
+</ul>
 <p>We'll start by importing random amd pandas. Random will be used to randomize our starting point and steps, while pandas will be used to store out data points in a dataframe.</p>
 <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
