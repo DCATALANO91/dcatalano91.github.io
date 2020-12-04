@@ -136,7 +136,7 @@
 <p>The results will be converted to a decimal probability and written to a csv file</p>
 </li>
 </ul>
-<p>We'll start by importing random amd pandas. Random will be used to randomize our starting point and steps, while pandas will be used to store out data points in a dataframe.</p>
+<p>We'll start by importing random and pandas. Random will be used to randomize our starting point and steps, while pandas will be used to store our data points in a dataframe.</p>
 <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
@@ -149,7 +149,7 @@
 </pre></div>
 
 
-<p>Now we can begin coding our movement simulation. Keep in mind that this simulation needs run 100000 times, each iteration starts at a random spot and moves 1000 times. We can achieve this with a nested for loop.</p>
+<p>Now we can begin coding our movement simulation. Keep in mind that this simulation needs to run 100000 times, each iteration starts at a random spot and moves 1000 times. We can achieve this with a nested for loop.</p>
 <div class="highlight"><pre><span></span><span class="c1"># begin first for loop, from 0 to 100000 exclusive</span>
 <span class="k">for</span> <span class="n">sim</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">100000</span><span class="p">):</span>
     <span class="c1"># store a random integer between 1 and 9 as x, this is the starting point</span>
